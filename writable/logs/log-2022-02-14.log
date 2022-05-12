@@ -1,0 +1,12 @@
+CRITICAL - 2022-02-14 21:49:19 --> Undefined variable: validation
+#0 C:\laragon\www\iventarisApp\app\Views\pegawai\create.php(12): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\laragon\\www\\...', 12, Array)
+#1 C:\laragon\www\iventarisApp\system\View\View.php(210): include('C:\\laragon\\www\\...')
+#2 C:\laragon\www\iventarisApp\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\laragon\www\iventarisApp\system\Common.php(1089): CodeIgniter\View\View->render('pegawai/create', Array, true)
+#4 C:\laragon\www\iventarisApp\app\Controllers\Pegawai.php(26): view('pegawai/create', Array)
+#5 C:\laragon\www\iventarisApp\system\CodeIgniter.php(825): App\Controllers\Pegawai->create()
+#6 C:\laragon\www\iventarisApp\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pegawai))
+#7 C:\laragon\www\iventarisApp\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\laragon\www\iventarisApp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\laragon\www\iventarisApp\system\Commands\Server\rewrite.php(43): require_once('C:\\laragon\\www\\...')
+#10 {main}

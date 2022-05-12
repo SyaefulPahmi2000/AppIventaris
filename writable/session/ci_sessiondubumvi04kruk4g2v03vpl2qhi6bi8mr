@@ -1,0 +1,9 @@
+__ci_last_regenerate|i:1648380717;_ci_previous_url|s:49:"http://localhost:8080/index.php/peminjaman/create";message|s:325:"<script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+            <script>
+            swal.fire({
+                title: "opps..",
+                text: "Barang Sedang DiPinjam, Pengajuan Ditolak!",
+                icon: "error",
+                button: "Aww yiss!",
+              });
+            })</script>";__ci_vars|a:1:{s:7:"message";s:3:"old";}

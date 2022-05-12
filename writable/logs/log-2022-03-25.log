@@ -1,0 +1,72 @@
+ERROR - 2022-03-25 06:25:42 --> Unknown column 'peminjaman.id_pegawai' in 'on clause'
+CRITICAL - 2022-03-25 06:25:42 --> Unknown column 'peminjaman.id_pegawai' in 'on clause'
+#0 C:\laragon\www\iventarisApp\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT * FROM p...', 0)
+#1 C:\laragon\www\iventarisApp\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM p...')
+#2 C:\laragon\www\iventarisApp\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM p...')
+#3 C:\laragon\www\iventarisApp\app\Controllers\Peminjaman.php(17): CodeIgniter\Database\BaseConnection->query('SELECT * FROM p...')
+#4 C:\laragon\www\iventarisApp\system\CodeIgniter.php(825): App\Controllers\Peminjaman->index()
+#5 C:\laragon\www\iventarisApp\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Peminjaman))
+#6 C:\laragon\www\iventarisApp\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\laragon\www\iventarisApp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\laragon\www\iventarisApp\system\Commands\Server\rewrite.php(43): require_once('C:\\laragon\\www\\...')
+#9 {main}
+ERROR - 2022-03-25 06:26:02 --> Table 'db_iventaris.peminjaman' doesn't exist
+CRITICAL - 2022-03-25 06:26:02 --> Table 'db_iventaris.peminjaman' doesn't exist
+#0 C:\laragon\www\iventarisApp\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT * FROM p...', 0)
+#1 C:\laragon\www\iventarisApp\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM p...')
+#2 C:\laragon\www\iventarisApp\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM p...')
+#3 C:\laragon\www\iventarisApp\app\Controllers\Peminjaman.php(17): CodeIgniter\Database\BaseConnection->query('SELECT * FROM p...')
+#4 C:\laragon\www\iventarisApp\system\CodeIgniter.php(825): App\Controllers\Peminjaman->index()
+#5 C:\laragon\www\iventarisApp\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Peminjaman))
+#6 C:\laragon\www\iventarisApp\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\laragon\www\iventarisApp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\laragon\www\iventarisApp\system\Commands\Server\rewrite.php(43): require_once('C:\\laragon\\www\\...')
+#9 {main}
+CRITICAL - 2022-03-25 07:31:37 --> Undefined variable: kode
+#0 C:\laragon\www\iventarisApp\app\Controllers\Peminjaman.php(77): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\laragon\\www\\...', 77, Array)
+#1 C:\laragon\www\iventarisApp\system\CodeIgniter.php(825): App\Controllers\Peminjaman->save()
+#2 C:\laragon\www\iventarisApp\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Peminjaman))
+#3 C:\laragon\www\iventarisApp\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laragon\www\iventarisApp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\laragon\www\iventarisApp\system\Commands\Server\rewrite.php(43): require_once('C:\\laragon\\www\\...')
+#6 {main}
+CRITICAL - 2022-03-25 07:35:55 --> Undefined variable: kode
+#0 C:\laragon\www\iventarisApp\app\Controllers\Peminjaman.php(77): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\laragon\\www\\...', 77, Array)
+#1 C:\laragon\www\iventarisApp\system\CodeIgniter.php(825): App\Controllers\Peminjaman->save()
+#2 C:\laragon\www\iventarisApp\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Peminjaman))
+#3 C:\laragon\www\iventarisApp\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laragon\www\iventarisApp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\laragon\www\iventarisApp\system\Commands\Server\rewrite.php(43): require_once('C:\\laragon\\www\\...')
+#6 {main}
+CRITICAL - 2022-03-25 07:38:11 --> Undefined variable: kode
+#0 C:\laragon\www\iventarisApp\app\Controllers\Peminjaman.php(77): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\laragon\\www\\...', 77, Array)
+#1 C:\laragon\www\iventarisApp\system\CodeIgniter.php(825): App\Controllers\Peminjaman->save()
+#2 C:\laragon\www\iventarisApp\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Peminjaman))
+#3 C:\laragon\www\iventarisApp\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laragon\www\iventarisApp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\laragon\www\iventarisApp\system\Commands\Server\rewrite.php(43): require_once('C:\\laragon\\www\\...')
+#6 {main}
+CRITICAL - 2022-03-25 07:40:38 --> Undefined variable: kode
+#0 C:\laragon\www\iventarisApp\app\Controllers\Peminjaman.php(77): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\laragon\\www\\...', 77, Array)
+#1 C:\laragon\www\iventarisApp\system\CodeIgniter.php(825): App\Controllers\Peminjaman->save()
+#2 C:\laragon\www\iventarisApp\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Peminjaman))
+#3 C:\laragon\www\iventarisApp\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laragon\www\iventarisApp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\laragon\www\iventarisApp\system\Commands\Server\rewrite.php(43): require_once('C:\\laragon\\www\\...')
+#6 {main}
+CRITICAL - 2022-03-25 07:43:08 --> Undefined variable: kode
+#0 C:\laragon\www\iventarisApp\app\Controllers\Peminjaman.php(77): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\laragon\\www\\...', 77, Array)
+#1 C:\laragon\www\iventarisApp\system\CodeIgniter.php(825): App\Controllers\Peminjaman->save()
+#2 C:\laragon\www\iventarisApp\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Peminjaman))
+#3 C:\laragon\www\iventarisApp\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laragon\www\iventarisApp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\laragon\www\iventarisApp\system\Commands\Server\rewrite.php(43): require_once('C:\\laragon\\www\\...')
+#6 {main}
+CRITICAL - 2022-03-25 07:46:41 --> Undefined variable: kode
+#0 C:\laragon\www\iventarisApp\app\Controllers\Peminjaman.php(76): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\laragon\\www\\...', 76, Array)
+#1 C:\laragon\www\iventarisApp\system\CodeIgniter.php(825): App\Controllers\Peminjaman->save()
+#2 C:\laragon\www\iventarisApp\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Peminjaman))
+#3 C:\laragon\www\iventarisApp\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laragon\www\iventarisApp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\laragon\www\iventarisApp\system\Commands\Server\rewrite.php(43): require_once('C:\\laragon\\www\\...')
+#6 {main}

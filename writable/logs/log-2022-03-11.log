@@ -1,0 +1,120 @@
+ERROR - 2022-03-11 05:42:48 --> Unknown column 'pegawai.idpegawai' in 'on clause'
+CRITICAL - 2022-03-11 05:42:48 --> Unknown column 'pegawai.idpegawai' in 'on clause'
+#0 C:\laragon\www\iventarisApp\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT * FROM b...', 0)
+#1 C:\laragon\www\iventarisApp\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM b...')
+#2 C:\laragon\www\iventarisApp\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM b...')
+#3 C:\laragon\www\iventarisApp\app\Controllers\Barang.php(17): CodeIgniter\Database\BaseConnection->query('SELECT * FROM b...')
+#4 C:\laragon\www\iventarisApp\system\CodeIgniter.php(825): App\Controllers\Barang->index()
+#5 C:\laragon\www\iventarisApp\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Barang))
+#6 C:\laragon\www\iventarisApp\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\laragon\www\iventarisApp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\laragon\www\iventarisApp\system\Commands\Server\rewrite.php(43): require_once('C:\\laragon\\www\\...')
+#9 {main}
+CRITICAL - 2022-03-11 05:47:12 --> Undefined index: nama_ruangan
+#0 C:\laragon\www\iventarisApp\app\Views\barang\index.php(38): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\laragon\\www\\...', 38, Array)
+#1 C:\laragon\www\iventarisApp\system\View\View.php(210): include('C:\\laragon\\www\\...')
+#2 C:\laragon\www\iventarisApp\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\laragon\www\iventarisApp\system\Common.php(1089): CodeIgniter\View\View->render('barang/index', Array, true)
+#4 C:\laragon\www\iventarisApp\app\Controllers\Barang.php(20): view('barang/index', Array)
+#5 C:\laragon\www\iventarisApp\system\CodeIgniter.php(825): App\Controllers\Barang->index()
+#6 C:\laragon\www\iventarisApp\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Barang))
+#7 C:\laragon\www\iventarisApp\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\laragon\www\iventarisApp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\laragon\www\iventarisApp\system\Commands\Server\rewrite.php(43): require_once('C:\\laragon\\www\\...')
+#10 {main}
+CRITICAL - 2022-03-11 05:49:15 --> Undefined index: nama_ruangan
+#0 C:\laragon\www\iventarisApp\app\Views\barang\index.php(38): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\laragon\\www\\...', 38, Array)
+#1 C:\laragon\www\iventarisApp\system\View\View.php(210): include('C:\\laragon\\www\\...')
+#2 C:\laragon\www\iventarisApp\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\laragon\www\iventarisApp\system\Common.php(1089): CodeIgniter\View\View->render('barang/index', Array, true)
+#4 C:\laragon\www\iventarisApp\app\Controllers\Barang.php(20): view('barang/index', Array)
+#5 C:\laragon\www\iventarisApp\system\CodeIgniter.php(825): App\Controllers\Barang->index()
+#6 C:\laragon\www\iventarisApp\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Barang))
+#7 C:\laragon\www\iventarisApp\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\laragon\www\iventarisApp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\laragon\www\iventarisApp\system\Commands\Server\rewrite.php(43): require_once('C:\\laragon\\www\\...')
+#10 {main}
+CRITICAL - 2022-03-11 06:38:41 --> Call to a member function getError() on null
+#0 C:\laragon\www\iventarisApp\system\CodeIgniter.php(825): App\Controllers\Pegawai->update('4')
+#1 C:\laragon\www\iventarisApp\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pegawai))
+#2 C:\laragon\www\iventarisApp\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\laragon\www\iventarisApp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\laragon\www\iventarisApp\system\Commands\Server\rewrite.php(43): require_once('C:\\laragon\\www\\...')
+#5 {main}
+CRITICAL - 2022-03-11 06:41:22 --> Call to a member function getErrors() on null
+#0 C:\laragon\www\iventarisApp\system\CodeIgniter.php(825): App\Controllers\Pegawai->update('4')
+#1 C:\laragon\www\iventarisApp\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pegawai))
+#2 C:\laragon\www\iventarisApp\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\laragon\www\iventarisApp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\laragon\www\iventarisApp\system\Commands\Server\rewrite.php(43): require_once('C:\\laragon\\www\\...')
+#5 {main}
+CRITICAL - 2022-03-11 06:41:44 --> Call to a member function getError() on null
+#0 C:\laragon\www\iventarisApp\system\CodeIgniter.php(825): App\Controllers\Pegawai->update('4')
+#1 C:\laragon\www\iventarisApp\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pegawai))
+#2 C:\laragon\www\iventarisApp\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\laragon\www\iventarisApp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\laragon\www\iventarisApp\system\Commands\Server\rewrite.php(43): require_once('C:\\laragon\\www\\...')
+#5 {main}
+CRITICAL - 2022-03-11 06:42:14 --> Call to a member function getError() on null
+#0 C:\laragon\www\iventarisApp\system\CodeIgniter.php(825): App\Controllers\Pegawai->update('4')
+#1 C:\laragon\www\iventarisApp\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pegawai))
+#2 C:\laragon\www\iventarisApp\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\laragon\www\iventarisApp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\laragon\www\iventarisApp\system\Commands\Server\rewrite.php(43): require_once('C:\\laragon\\www\\...')
+#5 {main}
+CRITICAL - 2022-03-11 06:42:16 --> Call to a member function getError() on null
+#0 C:\laragon\www\iventarisApp\system\CodeIgniter.php(825): App\Controllers\Pegawai->update('4')
+#1 C:\laragon\www\iventarisApp\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pegawai))
+#2 C:\laragon\www\iventarisApp\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\laragon\www\iventarisApp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\laragon\www\iventarisApp\system\Commands\Server\rewrite.php(43): require_once('C:\\laragon\\www\\...')
+#5 {main}
+CRITICAL - 2022-03-11 06:42:17 --> Call to a member function getError() on null
+#0 C:\laragon\www\iventarisApp\system\CodeIgniter.php(825): App\Controllers\Pegawai->update('4')
+#1 C:\laragon\www\iventarisApp\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pegawai))
+#2 C:\laragon\www\iventarisApp\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\laragon\www\iventarisApp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\laragon\www\iventarisApp\system\Commands\Server\rewrite.php(43): require_once('C:\\laragon\\www\\...')
+#5 {main}
+CRITICAL - 2022-03-11 06:42:18 --> Call to a member function getError() on null
+#0 C:\laragon\www\iventarisApp\system\CodeIgniter.php(825): App\Controllers\Pegawai->update('4')
+#1 C:\laragon\www\iventarisApp\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pegawai))
+#2 C:\laragon\www\iventarisApp\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\laragon\www\iventarisApp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\laragon\www\iventarisApp\system\Commands\Server\rewrite.php(43): require_once('C:\\laragon\\www\\...')
+#5 {main}
+CRITICAL - 2022-03-11 06:44:05 --> Call to a member function getError() on null
+#0 C:\laragon\www\iventarisApp\system\CodeIgniter.php(825): App\Controllers\Pegawai->update('4')
+#1 C:\laragon\www\iventarisApp\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pegawai))
+#2 C:\laragon\www\iventarisApp\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\laragon\www\iventarisApp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\laragon\www\iventarisApp\system\Commands\Server\rewrite.php(43): require_once('C:\\laragon\\www\\...')
+#5 {main}
+CRITICAL - 2022-03-11 06:52:24 --> Call to a member function getRandomName() on null
+#0 C:\laragon\www\iventarisApp\system\CodeIgniter.php(825): App\Controllers\Pegawai->update('7')
+#1 C:\laragon\www\iventarisApp\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pegawai))
+#2 C:\laragon\www\iventarisApp\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\laragon\www\iventarisApp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\laragon\www\iventarisApp\system\Commands\Server\rewrite.php(43): require_once('C:\\laragon\\www\\...')
+#5 {main}
+CRITICAL - 2022-03-11 06:53:17 --> Call to a member function getRandomName() on null
+#0 C:\laragon\www\iventarisApp\system\CodeIgniter.php(825): App\Controllers\Pegawai->update('7')
+#1 C:\laragon\www\iventarisApp\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pegawai))
+#2 C:\laragon\www\iventarisApp\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\laragon\www\iventarisApp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\laragon\www\iventarisApp\system\Commands\Server\rewrite.php(43): require_once('C:\\laragon\\www\\...')
+#5 {main}
+CRITICAL - 2022-03-11 06:53:56 --> Call to a member function getRandomName() on null
+#0 C:\laragon\www\iventarisApp\system\CodeIgniter.php(825): App\Controllers\Pegawai->update('7')
+#1 C:\laragon\www\iventarisApp\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pegawai))
+#2 C:\laragon\www\iventarisApp\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\laragon\www\iventarisApp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\laragon\www\iventarisApp\system\Commands\Server\rewrite.php(43): require_once('C:\\laragon\\www\\...')
+#5 {main}
+CRITICAL - 2022-03-11 06:54:20 --> Call to a member function getRandomName() on null
+#0 C:\laragon\www\iventarisApp\system\CodeIgniter.php(825): App\Controllers\Pegawai->update('7')
+#1 C:\laragon\www\iventarisApp\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pegawai))
+#2 C:\laragon\www\iventarisApp\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\laragon\www\iventarisApp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\laragon\www\iventarisApp\system\Commands\Server\rewrite.php(43): require_once('C:\\laragon\\www\\...')
+#5 {main}

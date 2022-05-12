@@ -1,0 +1,5 @@
+__ci_last_regenerate|i:1648216849;_ci_previous_url|s:49:"http://localhost:8080/index.php/peminjaman/create";message|s:258:"<script src="https://cdn.jsdelivr.net/npm/sweetalert2@1@"></script><script>Swal.fire({
+                icon: "error",
+                title: "Oops...",
+                text: "Barang sedang di pinjam, pengajuan peminjaman ditolak!"
+            })</script>";__ci_vars|a:1:{s:7:"message";s:3:"old";}

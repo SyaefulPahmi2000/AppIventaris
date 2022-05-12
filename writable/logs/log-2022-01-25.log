@@ -1,0 +1,162 @@
+CRITICAL - 2022-01-25 19:33:44 --> Undefined property: App\Controllers\Barang::$db
+#0 C:\laragon\www\iventarisApp\app\Controllers\Barang.php(32): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\laragon\\www\\...', 32, Array)
+#1 C:\laragon\www\iventarisApp\system\CodeIgniter.php(825): App\Controllers\Barang->delete('br004')
+#2 C:\laragon\www\iventarisApp\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Barang))
+#3 C:\laragon\www\iventarisApp\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laragon\www\iventarisApp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\laragon\www\iventarisApp\system\Commands\Server\rewrite.php(43): require_once('C:\\laragon\\www\\...')
+#6 {main}
+CRITICAL - 2022-01-25 19:34:30 --> Undefined property: App\Controllers\Barang::$db
+#0 C:\laragon\www\iventarisApp\app\Controllers\Barang.php(32): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\laragon\\www\\...', 32, Array)
+#1 C:\laragon\www\iventarisApp\system\CodeIgniter.php(825): App\Controllers\Barang->delete('br004')
+#2 C:\laragon\www\iventarisApp\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Barang))
+#3 C:\laragon\www\iventarisApp\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laragon\www\iventarisApp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\laragon\www\iventarisApp\system\Commands\Server\rewrite.php(43): require_once('C:\\laragon\\www\\...')
+#6 {main}
+CRITICAL - 2022-01-25 19:34:32 --> Undefined property: App\Controllers\Barang::$db
+#0 C:\laragon\www\iventarisApp\app\Controllers\Barang.php(32): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\laragon\\www\\...', 32, Array)
+#1 C:\laragon\www\iventarisApp\system\CodeIgniter.php(825): App\Controllers\Barang->delete('br004')
+#2 C:\laragon\www\iventarisApp\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Barang))
+#3 C:\laragon\www\iventarisApp\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laragon\www\iventarisApp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\laragon\www\iventarisApp\system\Commands\Server\rewrite.php(43): require_once('C:\\laragon\\www\\...')
+#6 {main}
+CRITICAL - 2022-01-25 19:34:52 --> Undefined property: App\Controllers\Barang::$db
+#0 C:\laragon\www\iventarisApp\app\Controllers\Barang.php(32): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\laragon\\www\\...', 32, Array)
+#1 C:\laragon\www\iventarisApp\system\CodeIgniter.php(825): App\Controllers\Barang->delete('br004')
+#2 C:\laragon\www\iventarisApp\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Barang))
+#3 C:\laragon\www\iventarisApp\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laragon\www\iventarisApp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\laragon\www\iventarisApp\system\Commands\Server\rewrite.php(43): require_once('C:\\laragon\\www\\...')
+#6 {main}
+CRITICAL - 2022-01-25 19:44:53 --> syntax error, unexpected end of file, expecting elseif (T_ELSEIF) or else (T_ELSE) or endif (T_ENDIF)
+#0 C:\laragon\www\iventarisApp\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\laragon\www\iventarisApp\system\Common.php(1089): CodeIgniter\View\View->render('barang/index', Array, true)
+#2 C:\laragon\www\iventarisApp\app\Controllers\Barang.php(20): view('barang/index', Array)
+#3 C:\laragon\www\iventarisApp\system\CodeIgniter.php(825): App\Controllers\Barang->index()
+#4 C:\laragon\www\iventarisApp\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Barang))
+#5 C:\laragon\www\iventarisApp\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\laragon\www\iventarisApp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\laragon\www\iventarisApp\system\Commands\Server\rewrite.php(43): require_once('C:\\laragon\\www\\...')
+#8 {main}
+CRITICAL - 2022-01-25 20:28:56 --> Cannot redeclare App\Controllers\Barang::create()
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-01-25 20:30:58 --> syntax error, unexpected '(', expecting variable (T_VARIABLE) or '{' or '$'
+#0 C:\laragon\www\iventarisApp\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\laragon\www\iventarisApp\system\Common.php(1089): CodeIgniter\View\View->render('barang/create', Array, true)
+#2 C:\laragon\www\iventarisApp\app\Controllers\Barang.php(36): view('barang/create', Array)
+#3 C:\laragon\www\iventarisApp\system\CodeIgniter.php(825): App\Controllers\Barang->create()
+#4 C:\laragon\www\iventarisApp\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Barang))
+#5 C:\laragon\www\iventarisApp\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\laragon\www\iventarisApp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\laragon\www\iventarisApp\system\Commands\Server\rewrite.php(43): require_once('C:\\laragon\\www\\...')
+#8 {main}
+CRITICAL - 2022-01-25 20:31:31 --> syntax error, unexpected '%'
+#0 C:\laragon\www\iventarisApp\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\laragon\www\iventarisApp\system\Common.php(1089): CodeIgniter\View\View->render('barang/create', Array, true)
+#2 C:\laragon\www\iventarisApp\app\Controllers\Barang.php(36): view('barang/create', Array)
+#3 C:\laragon\www\iventarisApp\system\CodeIgniter.php(825): App\Controllers\Barang->create()
+#4 C:\laragon\www\iventarisApp\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Barang))
+#5 C:\laragon\www\iventarisApp\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\laragon\www\iventarisApp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\laragon\www\iventarisApp\system\Commands\Server\rewrite.php(43): require_once('C:\\laragon\\www\\...')
+#8 {main}
+CRITICAL - 2022-01-25 20:37:11 --> Undefined variable: ruangan
+#0 C:\laragon\www\iventarisApp\app\Views\barang\create.php(48): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\laragon\\www\\...', 48, Array)
+#1 C:\laragon\www\iventarisApp\system\View\View.php(210): include('C:\\laragon\\www\\...')
+#2 C:\laragon\www\iventarisApp\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\laragon\www\iventarisApp\system\Common.php(1089): CodeIgniter\View\View->render('barang/create', Array, true)
+#4 C:\laragon\www\iventarisApp\app\Controllers\Barang.php(36): view('barang/create', Array)
+#5 C:\laragon\www\iventarisApp\system\CodeIgniter.php(825): App\Controllers\Barang->create()
+#6 C:\laragon\www\iventarisApp\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Barang))
+#7 C:\laragon\www\iventarisApp\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\laragon\www\iventarisApp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\laragon\www\iventarisApp\system\Commands\Server\rewrite.php(43): require_once('C:\\laragon\\www\\...')
+#10 {main}
+CRITICAL - 2022-01-25 20:39:07 --> syntax error, unexpected ''ruangan'' (T_CONSTANT_ENCAPSED_STRING), expecting ']'
+#0 C:\laragon\www\iventarisApp\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('barang/create')
+#1 C:\laragon\www\iventarisApp\system\CodeIgniter.php(719): CodeIgniter\Router\Router->handle('barang/create')
+#2 C:\laragon\www\iventarisApp\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\laragon\www\iventarisApp\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laragon\www\iventarisApp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\laragon\www\iventarisApp\system\Commands\Server\rewrite.php(43): require_once('C:\\laragon\\www\\...')
+#6 {main}
+CRITICAL - 2022-01-25 20:39:46 --> Undefined index: nama_ruangan
+#0 C:\laragon\www\iventarisApp\app\Views\barang\create.php(49): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\laragon\\www\\...', 49, Array)
+#1 C:\laragon\www\iventarisApp\system\View\View.php(210): include('C:\\laragon\\www\\...')
+#2 C:\laragon\www\iventarisApp\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\laragon\www\iventarisApp\system\Common.php(1089): CodeIgniter\View\View->render('barang/create', Array, true)
+#4 C:\laragon\www\iventarisApp\app\Controllers\Barang.php(38): view('barang/create', Array)
+#5 C:\laragon\www\iventarisApp\system\CodeIgniter.php(825): App\Controllers\Barang->create()
+#6 C:\laragon\www\iventarisApp\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Barang))
+#7 C:\laragon\www\iventarisApp\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\laragon\www\iventarisApp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\laragon\www\iventarisApp\system\Commands\Server\rewrite.php(43): require_once('C:\\laragon\\www\\...')
+#10 {main}
+ERROR - 2022-01-25 20:58:53 --> Column 'kode_barang' cannot be null
+CRITICAL - 2022-01-25 20:58:53 --> Column 'kode_barang' cannot be null
+#0 C:\laragon\www\iventarisApp\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `ba...', 0)
+#1 C:\laragon\www\iventarisApp\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ba...')
+#2 C:\laragon\www\iventarisApp\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ba...')
+#3 C:\laragon\www\iventarisApp\system\Database\BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ba...', Array, false)
+#4 C:\laragon\www\iventarisApp\app\Controllers\Barang.php(49): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\laragon\www\iventarisApp\system\CodeIgniter.php(825): App\Controllers\Barang->save()
+#6 C:\laragon\www\iventarisApp\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Barang))
+#7 C:\laragon\www\iventarisApp\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\laragon\www\iventarisApp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\laragon\www\iventarisApp\system\Commands\Server\rewrite.php(43): require_once('C:\\laragon\\www\\...')
+#10 {main}
+ERROR - 2022-01-25 21:00:09 --> Column 'kode_barang' cannot be null
+CRITICAL - 2022-01-25 21:00:09 --> Column 'kode_barang' cannot be null
+#0 C:\laragon\www\iventarisApp\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `ba...', 0)
+#1 C:\laragon\www\iventarisApp\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ba...')
+#2 C:\laragon\www\iventarisApp\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ba...')
+#3 C:\laragon\www\iventarisApp\system\Database\BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ba...', Array, false)
+#4 C:\laragon\www\iventarisApp\app\Controllers\Barang.php(49): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\laragon\www\iventarisApp\system\CodeIgniter.php(825): App\Controllers\Barang->save()
+#6 C:\laragon\www\iventarisApp\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Barang))
+#7 C:\laragon\www\iventarisApp\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\laragon\www\iventarisApp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\laragon\www\iventarisApp\system\Commands\Server\rewrite.php(43): require_once('C:\\laragon\\www\\...')
+#10 {main}
+ERROR - 2022-01-25 21:00:45 --> Column 'kode_barang' cannot be null
+CRITICAL - 2022-01-25 21:00:45 --> Column 'kode_barang' cannot be null
+#0 C:\laragon\www\iventarisApp\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `ba...', 0)
+#1 C:\laragon\www\iventarisApp\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ba...')
+#2 C:\laragon\www\iventarisApp\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ba...')
+#3 C:\laragon\www\iventarisApp\system\Database\BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ba...', Array, false)
+#4 C:\laragon\www\iventarisApp\app\Controllers\Barang.php(49): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\laragon\www\iventarisApp\system\CodeIgniter.php(825): App\Controllers\Barang->save()
+#6 C:\laragon\www\iventarisApp\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Barang))
+#7 C:\laragon\www\iventarisApp\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\laragon\www\iventarisApp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\laragon\www\iventarisApp\system\Commands\Server\rewrite.php(43): require_once('C:\\laragon\\www\\...')
+#10 {main}
+ERROR - 2022-01-25 21:01:50 --> Column 'kode_barang' cannot be null
+CRITICAL - 2022-01-25 21:01:50 --> Column 'kode_barang' cannot be null
+#0 C:\laragon\www\iventarisApp\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `ba...', 0)
+#1 C:\laragon\www\iventarisApp\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ba...')
+#2 C:\laragon\www\iventarisApp\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ba...')
+#3 C:\laragon\www\iventarisApp\system\Database\BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ba...', Array, false)
+#4 C:\laragon\www\iventarisApp\app\Controllers\Barang.php(49): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\laragon\www\iventarisApp\system\CodeIgniter.php(825): App\Controllers\Barang->save()
+#6 C:\laragon\www\iventarisApp\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Barang))
+#7 C:\laragon\www\iventarisApp\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\laragon\www\iventarisApp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\laragon\www\iventarisApp\system\Commands\Server\rewrite.php(43): require_once('C:\\laragon\\www\\...')
+#10 {main}
+ERROR - 2022-01-25 21:01:53 --> Column 'kode_barang' cannot be null
+CRITICAL - 2022-01-25 21:01:53 --> Column 'kode_barang' cannot be null
+#0 C:\laragon\www\iventarisApp\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `ba...', 0)
+#1 C:\laragon\www\iventarisApp\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ba...')
+#2 C:\laragon\www\iventarisApp\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ba...')
+#3 C:\laragon\www\iventarisApp\system\Database\BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ba...', Array, false)
+#4 C:\laragon\www\iventarisApp\app\Controllers\Barang.php(49): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\laragon\www\iventarisApp\system\CodeIgniter.php(825): App\Controllers\Barang->save()
+#6 C:\laragon\www\iventarisApp\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Barang))
+#7 C:\laragon\www\iventarisApp\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\laragon\www\iventarisApp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\laragon\www\iventarisApp\system\Commands\Server\rewrite.php(43): require_once('C:\\laragon\\www\\...')
+#10 {main}
